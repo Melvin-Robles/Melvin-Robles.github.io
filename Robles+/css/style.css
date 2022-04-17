@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&display=swap');
+
+:root
+{
+    --colorprimario: #0C0D36;
+    --colorsecundario: #23459E;
+    --colorextra: #1555B6;
+    --blanco: white;
+
+}
+
+*
+{
+    /* Reseteamos propiedas del documento */
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x:hidden
+}
+
+html, body{
+    
+    /* En el html y body se debe modificar su altura para que el degradado
+    tenga sentido y se muestre bien*/
+
+    height:100%;
+    background-color: var(--colorprimario);
+    font-family: 'Baloo Da 2', cursive;
+    
+
+
+}
+
+.main h2
+{
+color: white;
+margin-top: 1.5vw;
+text-align: center;
+}
+
+.nav
+{
+    background-image: url("https://i.ibb.co/0fchgHs/Rectangle-5.png");
+    min-height: 150px;
+    width: 100vw;
+}
+
+.nav .logo
+{
+    
+    width: 13vw;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+
+.nav .btnnav
+{
+    
+    float: left;
+    position: relative;
+    left: 300%;
+    top: 55px;
+    margin: 0 30px 0 30px;
+    text-decoration: none;
+    width: 6.5vw;
+
+
+
+}
+
+.nav .btnnav:hover
+{
+       /* Este dropsadow nos permite una sombra que rodea exactamente todo el contenido*/
+       filter: drop-shadow(0 0 2.5px var(--blanco));
+       transition: all 0.5s;
+}
+
+
+
+.nav .login
+{
+    width: 15vw; 
+    position: absolute;
+    left: 82%;
+    top: 6%;
+    transition: all 0.5s;
+
+}
+
+.nav .login:hover
+{
+
+    /* Este dropsadow nos permite una sombra que rodea exactamente todo el contenido*/
+    filter: drop-shadow(0 0 2.5px var(--blanco));
+    transition: all 0.5s;
+  
+    
+}
+
+#contenedor-slide
+{
+   
+   margin-left: 5%;
+   margin-top: 3%;
+   width: 90vw;
+   text-align: center;
+
+}
+
+/* Se encarga de la transición de slide*/
+.carousel-item
+{
+    transition: all 0.5s ;
+}
+
+/* Estilos para el contenedor de contenido*/
+.contenedor-contenido
+{
+    position: relative;
+    left: 5vw;
+    width: 90vw;
+
+}
+
+
+.contenido
+{
+
+  position: relative;
+  margin-top: 3vh;
+  text-align: center;
+  color: var(--blanco);
+    
+}
+
+.contenido img
+{
+    position: relative;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 16vw;
+    height: 24vh;
+    border-radius: 7px;
+    transition: all 0.5s;
+    /*Esta propiedad permite que las imagenes no se estiren*/
+    object-fit: cover;
+    
+}
+
+.contenido img:hover
+{
+    filter: drop-shadow(0 0 4px var(--blanco));
+    transition: all 0.5s;
+}
+
+.contenido h4
+{
+
+    position: relative;
+    text-align: left;
+    margin-left: 4vw;
+    transition: all 0.5s;
+    
+}
+
+.contenido h4:hover
+{
+    filter: drop-shadow(0 0 2px var(--blanco));
+    transition: all 0.5s;
+}
