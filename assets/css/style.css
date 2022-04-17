@@ -177,3 +177,101 @@ text-align: center;
     filter: drop-shadow(0 0 2px var(--blanco));
     transition: all 0.5s;
 }
+
+/* Media Queries Responsivo */
+
+/*Tablet*/
+/*Vertical*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) 
+{
+   
+    .nav .login
+{
+    width: 13vw; 
+    position: absolute;
+    left: 82%;
+    top: 5%;
+    transition: all 0.5s;
+
+}
+
+.nav{
+    min-height: 120px;
+}
+
+.nav .btnnav
+{
+    
+   
+    left: 170%;
+    top: 40px;
+    margin: 0 20px 0 20px;
+    width: 8vw;
+
+}
+
+.contenido img
+{
+   
+  
+ 
+    width: 50vw;
+    height: 20vh;
+    border-radius: 20px;
+
+    
+}
+
+.contenido h4
+{
+    text-align: center;
+}
+
+}
+
+
+/*Disposotivos movil*/
+/*Vertical*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    
+    
+    .nav .login
+{
+    width: 14vw; 
+    position: absolute;
+    left: 82%;
+    top: 6%;
+    transition: all 0.5s;
+
+}
+
+.nav{
+    min-height: 100px;
+}
+
+.nav .btnnav
+{
+    
+   
+    left: 170%;
+    top: 40px;
+    margin: 0 20px 0 20px;
+    width: 9vw;
+
+}
+
+.contenido img
+{
+ 
+    width: 50vw;
+    height: 20vh;
+    border-radius: 20px;
+ 
+}
+
+.contenido h4
+{
+    text-align: center;
+}
+
+ }
