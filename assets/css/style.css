@@ -275,3 +275,47 @@ text-align: center;
 }
 
  }
+
+ @media (max-width: 720px)and (orientation:portrait) {
+    
+    
+    .nav .login
+{
+    width: 12vw; 
+    position: absolute;
+    left: 82%;
+    top: 6%;
+    transition: all 0.5s;
+
+}
+
+.nav{
+    min-height: 100px;
+}
+
+.nav .btnnav
+{
+    
+   
+    left: 165%;
+    top: 40px;
+    margin: 0 20px 0 20px;
+    width: 9vw;
+
+}
+
+.contenido img
+{
+ 
+    width: 50vw;
+    height: 20vh;
+    border-radius: 20px;
+ 
+}
+
+.contenido h4
+{
+    text-align: center;
+}
+
+ }
